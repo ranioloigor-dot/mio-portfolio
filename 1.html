@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Raniolo | Ingegnere Energetico e Nucleare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Sfondo personalizzato tema scuro con accenti luminosi azzurri */
+        body {
+            background-color: #0f172a; /* Slate 900 */
+            background-image: radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.15), transparent 50%);
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7); /* Slate 800 semi-trasparente */
+            border: 1px solid rgba(56, 189, 248, 0.2); /* Bordo azzurro leggero */
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen selection:bg-sky-500 selection:text-white">
+
+    <nav class="p-6 flex justify-between items-center max-w-5xl mx-auto sticky top-0 z-50 backdrop-blur-md bg-[#0f172a]/80">
+        <div class="glass-panel px-6 py-2 rounded-full flex gap-6 text-sm font-medium text-gray-300">
+            <a href="#home" class="hover:text-sky-400 transition">Home</a>
+            <a href="#about" class="hover:text-sky-400 transition">Chi Sono</a>
+            <a href="#portfolio" class="hover:text-sky-400 transition">Competenze</a>
+            <a href="#contact" class="hover:text-sky-400 transition">Contatti</a>
+        </div>
+        <a href="#contact" class="glass-panel p-2 rounded-full hover:bg-sky-800 transition" title="Contattami">
+            <svg class="w-5 h-5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+        </a>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 pt-16 pb-20" id="home">
+        <p class="text-gray-400 text-xl mb-3">Ciao, sono Igor Raniolo</p>
+        <h1 class="text-6xl font-bold mb-2">Ingegnere Energetico</h1>
+        <h2 class="text-6xl font-bold text-sky-400 mb-8">e Nucleare</h2>
+
+        <h3 class="text-3xl font-semibold mb-4">10+ Anni di Esperienza</h3>
+        <p class="text-gray-400 text-lg leading-relaxed max-w-2xl mb-10">
+            Libero professionista con Laurea Magistrale con lode, specializzato nel settore delle energie rinnovabili e nella sicurezza sul lavoro. Progetto soluzioni all'avanguardia per l'efficienza energetica e garantisco la piena conformità formativa aziendale in materia di salute e sicurezza.
+        </p>
+
+        <div class="flex flex-wrap gap-3 mb-16">
+            <span class="px-5 py-2 glass-panel rounded-full text-sky-300 text-sm font-medium border-sky-500/30">Pratiche ENEA & Conto Termico</span>
+            <span class="px-5 py-2 glass-panel rounded-full text-sky-300 text-sm font-medium border-sky-500/30">Progettazione Impianti Termici</span>
+            <span class="px-5 py-2 glass-panel rounded-full text-sky-300 text-sm font-medium border-sky-500/30">RSPP & Formatore D.lgs 81/08</span>
+            <span class="px-5 py-2 glass-panel rounded-full text-sky-300 text-sm font-medium border-sky-500/30">Sede Territoriale AIFES</span>
+            <span class="px-5 py-2 glass-panel rounded-full text-sky-300 text-sm font-medium border-sky-500/30">Pratiche GSE</span>
+            <span class="px-5 py-2 glass-panel rounded-full text-sky-300 text-sm font-medium border-sky-500/30">APE & Diagnosi Energetiche</span>
+        </div>
+
+        <section id="about" class="mb-24 pt-10">
+            <div class="glass-panel p-10 rounded-3xl">
+                <h4 class="text-sky-400 text-sm tracking-widest font-bold uppercase mb-4">About</h4>
+                <h2 class="text-3xl font-bold mb-6">Soluzioni pratiche con un'architettura tecnica solida</h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div>
+                        <p class="text-gray-400 mb-4 leading-relaxed">
+                            Dal 2018 guido il mio Studio di Ingegneria a Gela, offrendo consulenza energetica completa: dalla progettazione di impianti solari, radianti e HVAC, fino alla gestione delle pratiche autorizzative e di incentivazione.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Parallelamente, ricopro il ruolo di Esperto Indipendente per la Commissione Europea a Bruxelles, valutando progetti e programmi innovativi, e sono qualificato come formatore esperto in sicurezza sul lavoro tramite la rete AIFES.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="border-l-2 border-sky-600 pl-4">
+                            <h5 class="text-white font-semibold">Studio di Ingegneria Raniolo</h5>
+                            <p class="text-sm text-gray-400">Libero Professionista (2018 - Attuale)</p>
+                        </div>
+                        <div class="border-l-2 border-sky-600 pl-4">
+                            <h5 class="text-white font-semibold">European Commission</h5>
+                            <p class="text-sm text-gray-400">Independent Expert (2017 - Attuale)</p>
+                        </div>
+                        <div class="border-l-2 border-sky-600 pl-4">
+                            <h5 class="text-white font-semibold">Sede Territoriale AIFES</h5>
+                            <p class="text-sm text-gray-400">Qualifica formatore salute e sicurezza</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="mb-24 pt-10">
+            <h4 class="text-sky-400 text-sm tracking-widest font-bold uppercase mb-4">Servizi e Competenze</h4>
+            <h2 class="text-4xl font-bold mb-10">Le mie aree di intervento</h2>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="glass-panel p-8 rounded-3xl border-t-4 border-t-sky-400 hover:-translate-y-2 transition duration-300">
+                    <div class="bg-sky-500/20 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Progettazione Impianti</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Progettazione tecnica di impianti termici, meccanici, solari termici, fotovoltaici e sistemi radianti per edilizia civile, scuole e settore pubblico.</p>
+                </div>
+
+                <div class="glass-panel p-8 rounded-3xl border-t-4 border-t-sky-400 hover:-translate-y-2 transition duration-300">
+                    <div class="bg-sky-500/20 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Efficienza Energetica</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Gestione completa pratiche GSE ed ENEA, asseverazioni Conto Termico, redazione di Attestati di Prestazione Energetica (APE) e Diagnosi Energetiche.</p>
+                </div>
+
+                <div class="glass-panel p-8 rounded-3xl border-t-4 border-t-sky-400 hover:-translate-y-2 transition duration-300">
+                    <div class="bg-sky-500/20 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Sicurezza sul Lavoro</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Incarichi di RSPP aziendale e Docente-Formatore qualificato ai sensi del D.lgs. 81/08. Operativo come Sede Territoriale certificata AIFES.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-10 mb-20">
+            <h4 class="text-sky-400 text-sm tracking-widest font-bold uppercase mb-4">Contact</h4>
+            <h2 class="text-5xl font-bold mb-8">Lavoriamo insieme per la sicurezza e l'efficienza</h2>
+            
+            <p class="text-gray-400 text-lg mb-10 max-w-xl">Hai un'idea, un'opportunità di collaborazione o necessiti di una consulenza per pratiche e formazione? Scrivimi e ti risponderò al più presto.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-8 mt-2">
+                    <div class="border-l-2 border-sky-500 pl-5">
+                        <p class="text-sm text-gray-400 mb-1">Email</p>
+                        <a href="mailto:igor1991@hotmail.it" class="text-xl text-white hover:text-sky-400 transition">igor1991@hotmail.it</a>
+                    </div>
+                    <div class="border-l-2 border-sky-500 pl-5">
+                        <p class="text-sm text-gray-400 mb-1">Telefono</p>
+                        <a href="tel:+393466692946" class="text-xl text-white hover:text-sky-400 transition">+39 346 6692946</a>
+                    </div>
+                    <div class="border-l-2 border-sky-500 pl-5">
+                        <p class="text-sm text-gray-400 mb-1">Sede Operativa</p>
+                        <p class="text-xl text-white">Gela (CL), Italia</p>
+                    </div>
+                </div>
+
+                <div class="glass-panel p-8 rounded-3xl">
+                    <form class="space-y-5">
+                        <div>
+                            <label class="block text-xs text-sky-400 uppercase tracking-widest font-semibold mb-2">Nome</label>
+                            <input type="text" placeholder="Il tuo nome" class="w-full bg-[#0f172a] border border-gray-700/50 rounded-xl p-4 text-white focus:outline-none focus:border-sky-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs text-sky-400 uppercase tracking-widest font-semibold mb-2">Email</label>
+                            <input type="email" placeholder="la.tua@email.com" class="w-full bg-[#0f172a] border border-gray-700/50 rounded-xl p-4 text-white focus:outline-none focus:border-sky-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs text-sky-400 uppercase tracking-widest font-semibold mb-2">Messaggio</label>
+                            <textarea rows="3" placeholder="Come posso aiutarti?" class="w-full bg-[#0f172a] border border-gray-700/50 rounded-xl p-4 text-white focus:outline-none focus:border-sky-500 transition resize-none"></textarea>
+                        </div>
+                        <button type="button" class="w-full bg-sky-600 hover:bg-sky-500 text-white font-semibold py-4 rounded-xl transition mt-2 flex justify-center items-center gap-2">
+                            Invia Messaggio
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-gray-800 mt-10 py-8 text-center text-sm text-gray-500">
+        &copy; 2024 Igor Raniolo - Studio di Ingegneria. Tutti i diritti riservati.
+    </footer>
+</body>
+</html>
